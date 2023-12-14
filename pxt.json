@@ -1,0 +1,32 @@
+{
+    "name": "PicoBricks",
+    "description": "Picobricks for Micro:Bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+    },
+    "files": [
+        "README.md",
+        "RGB-WS2812B.ts",
+        "Gesture.ts",
+        "Others.ts",
+        "MotorDriver.ts",
+        "TouchSensor.ts",
+        "Esp01.ts",
+        "IR.ts",
+        "TempAndHum.ts",
+        "Oled.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.22",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
